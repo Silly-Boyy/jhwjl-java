@@ -1,47 +1,20 @@
-# 1️⃣ 忽略所有模块的 target 目录
 **/target/
 
-# 2️⃣ 忽略 Gradle 构建输出目录
-**/build/
-
-# 3️⃣ 忽略 Node.js 相关（如果有前端）
-/node_modules/
-/.pnpm-store/
-/.yarn/
-/.yarn-cache/
-/.yarnrc.yml
-
-# 4️⃣ 忽略 IDE 配置文件
 *.iml
 .idea/
 *.swp
 *.swo
 /.vscode/
 
-# 5️⃣ 操作系统文件
 .DS_Store
 Thumbs.db
 *.log
 *.tmp
 
-# 6️⃣ 环境配置文件（包含敏感数据）
-.env
-application.properties
-application.yml
-
-# 7️⃣ 忽略日志文件
 /logs/
 *.log
 
-# 8️⃣ 忽略数据库相关文件
-*.sql
-*.db
-
-# 9️⃣ 其他生成的临时文件
-*.pid
-*.seed
-*.pid.lock
 
 **/test/
 
-**/src/main/resources/application-dev.yml
+**/application-dev.yml
