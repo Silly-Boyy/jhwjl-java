@@ -18,9 +18,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>common</module>
-        <module>pojo</module>
-        <module>server</module>
+        <module>jhwjl-common</module>
+        <module>jhwjl-pojo</module>
+        <module>jhwjl-server</module>
     </modules>
 
 
@@ -39,12 +39,12 @@
         <dependencies>
             <dependency>
                 <groupId>com.jhwjl</groupId>
-                <artifactId>pojo</artifactId>
+                <artifactId>jhwjl-pojo</artifactId>
                 <version>${pojo.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.jhwjl</groupId>
-                <artifactId>common</artifactId>
+                <artifactId>jhwjl-common</artifactId>
                 <version>${common.version}</version>
             </dependency>
             <dependency>

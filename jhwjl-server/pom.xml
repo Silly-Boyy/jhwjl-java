@@ -8,18 +8,18 @@
         <artifactId>jhwjl</artifactId>
         <version>1.0.0</version>
     </parent>
-    <artifactId>server</artifactId>
+    <artifactId>jhwjl-server</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
             <groupId>com.jhwjl</groupId>
-            <artifactId>pojo</artifactId>
+            <artifactId>jhwjl-pojo</artifactId>
         </dependency>
         <dependency>
             <groupId>com.jhwjl</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>jhwjl-common</artifactId>
         </dependency>
         <!-- web依赖 -->
         <dependency>
