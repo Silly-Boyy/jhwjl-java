@@ -38,8 +38,8 @@
         </dependency>
         <!-- AMQP依赖 -->
         <dependency>
-            <groupId>org.springframework.amqp</groupId>
-            <artifactId>spring-amqp</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
         <!-- MYSQL连接池依赖 -->
         <dependency>

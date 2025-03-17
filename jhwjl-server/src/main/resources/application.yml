@@ -15,6 +15,12 @@ spring:
       host: ${redis.host}
       password: ${redis.password}
       port: ${redis.port}
+  rabbitmq:
+    host: ${rabbitmq.host}
+    port: ${rabbitmq.port}
+    username: ${rabbitmq.username}
+    password: ${rabbitmq.password}
+    virtual-host: ${rabbitmq.virtual-host}
 
 jhwjl:
   jwt:
