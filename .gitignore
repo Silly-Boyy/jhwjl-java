@@ -14,7 +14,4 @@ Thumbs.db
 /logs/
 *.log
 
-
-**/test/
-
 **/application-dev.yml
